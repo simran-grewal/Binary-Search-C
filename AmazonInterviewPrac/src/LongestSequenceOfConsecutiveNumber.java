@@ -10,7 +10,7 @@ public class LongestSequenceOfConsecutiveNumber
     public static void main(String[] args) {
 
         HashSet<Integer> hashSet = new HashSet<Integer>();
-        Integer[] arr = {5, 5, 3, 1};
+        Integer[] arr = {5, 5, 3, 1, 2, 4};
         hashSet.addAll(Arrays.asList(arr));
 
         int max = 0;
@@ -33,7 +33,6 @@ public class LongestSequenceOfConsecutiveNumber
 
         System.out.println(max);
 
-        char[] str = {'s', 'i', 'm'};
-        System.out.println(str[1]);
+
     }
 }
