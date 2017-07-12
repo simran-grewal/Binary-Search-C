@@ -26,7 +26,7 @@ class Sort{
         }
 
 
-        int temp = arr[last];
+        int temp = arr[l];
             arr[l] = arr[last];
             arr[last] = temp;
 
@@ -41,5 +41,8 @@ public class QuickSort
 
         Sort sort = new Sort();
         sort.qSort(arr, 0, arr.length - 1);
+        for(int i : arr){
+            System.out.println(i);
+        }
     }
 }

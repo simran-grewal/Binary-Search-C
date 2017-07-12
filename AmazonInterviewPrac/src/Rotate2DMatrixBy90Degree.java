@@ -8,7 +8,7 @@ public class Rotate2DMatrixBy90Degree
 
         for (int i = 0; i < n; ++i) {
             for (int j = 0; j < n; ++j) {
-                ret[i][ j] = matrix[n - j - 1][ i];
+                ret[i][ j] = matrix[j][ n - i - 1];
             }
         }
 

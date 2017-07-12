@@ -66,7 +66,7 @@ public class MergeSort
 
         int[] arr = {5, 1, 3, 9, 2, 6, 4};
 
-        Merge obj   = new Merge();
+        Merge obj = new Merge();
 
         obj.MergeSrt(arr, 0, arr.length - 1);
 
